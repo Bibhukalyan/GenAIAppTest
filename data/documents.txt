@@ -1,0 +1,11 @@
+The history of artificial intelligence (AI) began in antiquity, with myths, stories and rumors of artificial beings endowed with intelligence or consciousness by master craftsmen. The seeds of modern AI were planted by classical philosophers who attempted to describe the process of human thinking as the mechanical manipulation of symbols.
+
+The field of AI research was founded at a workshop at Dartmouth College in 1956. Those in attendance became the leaders of AI research for decades. Many of them predicted that a machine as intelligent as a human being would exist in no more than 20 years.
+
+Early AI research was largely funded by the US Department of Defense, and it produced the illusion of progress with impressive demonstrations of systems that solved problems or translated languages. When the "AI winter" hit in the late 1980s, funding dried up.
+
+However, in the 21st century, AI has seen a resurgence due to advances in computing power, large datasets, and new algorithms. Machine learning, particularly deep learning, has driven much of this progress, leading to breakthroughs in image recognition, natural language processing, and game playing.
+
+ChromaDB is an open-source embedding database. It makes it easy to build LLM apps by making knowledge, facts, and skills pluggable for LLMs. It handles the storage and search of embeddings, allowing developers to focus on other parts of their application.
+
+Gemini is a family of multimodal large language models developed by Google AI. It is designed to understand and process various forms of information, including text, images, audio, and video. Gemini models come in different sizes, such as Gemini Pro for general-purpose tasks and Gemini 1.5 Flash for faster, more cost-effective solutions.

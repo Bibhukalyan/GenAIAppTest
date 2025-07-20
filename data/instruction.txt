@@ -1,0 +1,54 @@
+Bash
+
+mkdir rag_api
+cd rag_api
+# Create the files as shown above
+pip install -r requirements.txt
+
+Bash
+
+uvicorn main:app --reload
+
+http://127.0.0.1:8000/docs to see the OpenAPI (Swagger UI) documentation, where you can test the endpoints.
+
+Testing the Endpoints:
+
+POST /ingest:
+You can send a request to manually ingest documents (though the startup_event will ingest documents.txt automatically if the DB is empty).
+
+JSON
+
+{
+  "documents": [
+    {
+      "id": "new_doc_1",
+      "content": "The Eiffel Tower is located in Paris, France.",
+      "metadata": {"source": "wikipedia"}
+    },
+    {
+      "id": "new_doc_2",
+      "content": "Paris is the capital city of France."
+    }
+  ]
+}
+POST /query:
+Send your RAG queries:
+
+JSON
+
+{
+  "query": "When was AI founded?",
+  "n_results": 2
+}
+JSON
+
+{
+  "query": "What is Gemini?",
+  "n_results": 1
+}
+JSON
+
+{
+  "query": "What is the capital of Japan?",
+  "n_results": 3
+}
